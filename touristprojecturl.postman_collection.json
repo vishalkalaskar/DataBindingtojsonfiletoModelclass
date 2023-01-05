@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "e3c47216-60ce-424e-abf9-ec5633414fbb",
+		"name": "touristprojecturl",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20254395"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8044/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"budget\":3422,\r\n    \"packageType\":\"france\",\r\n    \"tcity\":\"delhi\",\r\n    \"tname\":\"raj\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8044/register"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8044/findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8044/findAll"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8044/find/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8044/find/2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8044/modify",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tid\":2,\r\n    \"budget\":3422,\r\n    \"packageType\":\"france\",\r\n    \"tcity\":\"pune\",\r\n    \"tname\":\"raj patil\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8044/modify"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8044/delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tid\":2,\r\n    \"budget\":3422,\r\n    \"packageType\":\"france\",\r\n    \"tcity\":\"pune\",\r\n    \"tname\":\"raj patil\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8044/delete"
+			},
+			"response": []
+		}
+	]
+}
